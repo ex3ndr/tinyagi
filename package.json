@@ -5,7 +5,7 @@
   "author": "Steve Korshakov <steve@korshakov.com>",
   "description": "Typescript library for simple interop with different ML systems.",
   "license": "MIT",
-  "main": "dist/index.js",
+  "main": "lib/index.js",
   "files": [
     "lib"
   ],
