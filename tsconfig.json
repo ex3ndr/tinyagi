@@ -14,5 +14,11 @@
         // Typechecking
         "strict": true,
         "skipLibCheck": true,
-    }
+    },
+    "include": [
+        "sources/**/*.ts",
+    ],
+    "exclude": [
+        "sources/**/*.spec.ts"
+    ]
 }
