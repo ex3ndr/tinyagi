@@ -12,7 +12,7 @@
   "scripts": {
     "build": "rm -fr lib && tsc",
     "test": "jest",
-    "release": "yarn build && yarn release-it --npm.yarn1"
+    "release": "yarn build && yarn release-it"
   },
   "devDependencies": {
     "@release-it/keep-a-changelog": "^3.1.0",
