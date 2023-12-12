@@ -10,7 +10,7 @@
     "lib"
   ],
   "scripts": {
-    "build": "rm -fr lib && tsc",
+    "build": "rm -fr lib && tsc --declaration",
     "test": "jest",
     "release": "yarn build && yarn release-it"
   },
